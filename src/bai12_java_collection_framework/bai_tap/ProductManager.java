@@ -14,6 +14,7 @@ public class ProductManager {
         String name = scanner.next();
         System.out.print("Nhập giá sản phẩm: ");
         Double price = scanner.nextDouble();
+
         Product product = new Product(id, name, price);
         list.add(product);
     }
