@@ -8,6 +8,7 @@ import case_study.models.Customer;
 import case_study.models.Villa;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -109,7 +110,7 @@ public class CustomerManager {
         funcWriteAndRead.write("Customer.csv", customerList, true);
     }
 
-    public void showCustomer() {
+    public List<Customer> showCustomer() {
         List<String[]> list = funcWriteAndRead.read("Customer.csv");
         List<Customer> customerList = new ArrayList<>();
         for (String[] customerInfo : list) {
@@ -117,10 +118,14 @@ public class CustomerManager {
                     customerInfo[5], customerInfo[6], customerInfo[7]);
             customerList.add(customer);
         }
-        customerList.sort(new CompareNameAndBirthDay());
-        for (Customer customer : customerList) {
-            System.out.println(customer.showInfo());
+        Collections.sort(customerList);
+        for (int i = 0; i < customerList.size() ; i++) {
+            System.out.println(i + 1 + ". "+ customerList.get(i).showInfo());
         }
+//        for (Customer customer : customerList) {
+//            System.out.println(customer.showInfo());
+//        }
+        return customerList;
     }
 }
 

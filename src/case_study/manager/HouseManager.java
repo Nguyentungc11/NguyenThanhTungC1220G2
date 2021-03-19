@@ -33,7 +33,7 @@ public class HouseManager {
         funcWriteAndRead.write("House.csv", houseList, true);
     }
 
-    public void showHouse() {
+    public List<House> showHouse() {
         List<String[]> list = funcWriteAndRead.read("House.csv");
         List<House> houseList = new ArrayList<>();
         for (String[] houseInfo : list) {
@@ -42,9 +42,10 @@ public class HouseManager {
                     houseInfo[6], houseInfo[7], Integer.parseInt(houseInfo[8]));
             houseList.add(house);
         }
-        for (House house : houseList) {
-            System.out.println(house.showInfo());
+        for (int i = 0; i < houseList.size() ; i++) {
+            System.out.println(i +1 + ". " + houseList.get(i).showInfo());
         }
+        return houseList;
     }
 
     public String inputId() {

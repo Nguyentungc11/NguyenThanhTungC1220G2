@@ -1,10 +1,7 @@
 package case_study.controller;
 
 import case_study.commons.NameException;
-import case_study.manager.CustomerManager;
-import case_study.manager.HouseManager;
-import case_study.manager.RoomManager;
-import case_study.manager.VillaManager;
+import case_study.manager.*;
 import case_study.models.Customer;
 
 import java.util.Scanner;
@@ -17,7 +14,7 @@ public class MainController {
     HouseManager houseManager = new HouseManager();
     RoomManager roomManager = new RoomManager();
     CustomerManager customerManager = new CustomerManager();
-
+    BookingManager bookingManager = new BookingManager();
 
     public void disPlayMainMenu() throws NameException {
         int choice = 0;
@@ -45,6 +42,8 @@ public class MainController {
                 case 4:
                     customerManager.showCustomer();
                     break;
+                case 5:
+                    bookingManager.addNewBooking();
                 case 7:
                     isExit = true;
                     break;
@@ -100,9 +99,13 @@ do {
         System.out.println("Menu: \n 1.Show  villa" +
                 "\n 2.Show  house" +
                 "\n 3.Show  room" +
-                "\n4.Back to main menu." +
-                "\n5.Exit.");
-        System.out.print("Input your choice: ");
+                "\n 4.Show All name villa Not duplicate." +
+                "\n 5.Show All name house Not duplicate." +
+                "\n 6.Show All name room Not duplicate." +
+                "\n7.Back to main menu." +
+                "\n8.Exit.");
+
+            System.out.print("Input your choice: ");
             choice = scanner.nextInt();
             switch (choice) {
                 case 1:
@@ -115,9 +118,12 @@ do {
                     roomManager.showRoom();
                     break;
                 case 4:
+                    villaManager.showVillaNotDup();
+                    break;
+                case 7:
                     isBackToMainMenu = true;
                     break;
-                case 5:
+                case 8:
                     isExit = true;
                     break;
                 default:

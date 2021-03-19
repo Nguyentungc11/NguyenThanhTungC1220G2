@@ -1,6 +1,6 @@
 package case_study.models;
 
-public class Customer {
+public class Customer implements Comparable<Customer>{
     private String name;
     private String birthday;
     private String gender;
@@ -9,6 +9,7 @@ public class Customer {
     private String email;
     private String typeCustomer;
     private String address;
+    private Services services;
 
     public Customer() {
     }
@@ -89,6 +90,13 @@ public class Customer {
         this.address = address;
     }
 
+    public Services getServices() {
+        return services;
+    }
+
+    public void setServices(Services services) {
+        this.services = services;
+    }
 
     public String showInfo() {
         return "Customer{" +
@@ -105,6 +113,18 @@ public class Customer {
 
     @Override
     public String toString() {
-        return name + "," + birthday + "," + gender + "," + idCard + "," + phoneNumber + "," + email + "," + typeCustomer + "," + address;
+        return name + "," + birthday + "," + gender + "," + idCard + "," +
+                phoneNumber + "," + email + "," + typeCustomer + "," + address + "," + services.toString();
+    }
+
+    @Override
+    public int compareTo(Customer o) {
+        int result = this.getName().compareTo(o.getName());
+        if (result == 0){
+            int yearFistCustomer = Integer.parseInt(this.getBirthday().split("/")[2]);
+            int yearOCustomer = Integer.parseInt(this.getBirthday().split("/")[2]);
+            result = yearFistCustomer - yearOCustomer;
+        }
+        return result;
     }
 }

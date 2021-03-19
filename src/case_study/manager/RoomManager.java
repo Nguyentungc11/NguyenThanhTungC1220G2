@@ -29,7 +29,7 @@ public class RoomManager {
         funcWriteAndRead.write("Room.csv", roomList, true);
     }
 
-    public void showRoom() {
+    public List<Room>showRoom() {
         List<String[]> list = funcWriteAndRead.read("Room.csv");
         List<Room> roomList = new ArrayList<>();
         for (String[] roomInfo : list) {
@@ -37,9 +37,10 @@ public class RoomManager {
                     Double.parseDouble(roomInfo[3]), Integer.parseInt(roomInfo[4]), roomInfo[5], roomInfo[6]);
             roomList.add(room);
         }
-        for (Room room : roomList) {
-            System.out.println(room.showInfo());
+        for (int i = 0; i < roomList.size() ; i++) {
+            System.out.println(i +1 + ". " + roomList.get(i).showInfo());
         }
+        return roomList;
     }
 
     public String inputId() {

@@ -2,106 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cebd611-2504-4aaf-8010-fa51eef1bb93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/META-INF/C1220G2_NguyenThanhTung_Module2.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai11_stack_queue/bai_tap/KiemTraDoiXung.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai11_stack_queue/thuc_hanh/trienkhai_queue/LinkedListQueueClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai11_stack_queue/thuc_hanh/trienkhai_queue/MyLinkedListQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai11_stack_queue/thuc_hanh/trienkhai_queue/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/bai_tap/CompareByPriceIncrease.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/bai_tap/CompareByPriceReduce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/bai_tap/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/bai_tap/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/bai_tap/ProductManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/compare/CompareByAge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/compare/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/compare/TestCompare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/hashmap_hashset/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/hashmap_hashset/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/hashmap_treemap_linkedhashmap/TestMap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai12_java_collection_framework/thuc_hanh/install_bts/Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_13_thuattoan_timkiem/bai_tap/StringIncrease.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_13_thuattoan_timkiem/thuc_hanh/caidat_timkiem_nhiphan/BinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_14_thuattoan_sapxep/baitap/InsertionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_14_thuattoan_sapxep/baitap/InsertionSortByStep.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_14_thuattoan_sapxep/thuchanh/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_14_thuattoan_sapxep/thuchanh/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_15_xu_li_ngoai_le/bai_tap/IllegalTriangleException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_15_xu_li_ngoai_le/bai_tap/Triangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_15_xu_li_ngoai_le/thuc_hanh/ArrayExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_16_binary_file_and_serialization/thuc_hanh/CopyLargeFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_16_binary_file_and_serialization/thuc_hanh/countries_copy.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_17_string_and_regex/thuc_hanh/CrawlSongExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/bai_17_string_and_regex/thuc_hanh/ValidateAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/AreaPoolException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/BirthdayException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/CompareNameAndBirthDay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/EmailException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/FuncWriteAndRead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/GenderException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/IdCardException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/NameException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/commons/Validation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/controller/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Customer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/House.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Room.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Villa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/CustomerManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/HouseManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/RoomManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/ServiceManger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/VillaManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Customer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/House.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Services.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Villa.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/comparable/CompareByName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/comparable/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/comparator/CompareById.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/comparator/CompareByName.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/comparator/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/quanlisanpham/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/test/quanlisanpham/Product2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai11_stack_queue/thuc_hanh/trienkhai_queue/LinkedListQueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai11_stack_queue/thuc_hanh/trienkhai_queue/MyLinkedListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai11_stack_queue/thuc_hanh/trienkhai_queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bai12_java_collection_framework/thuc_hanh/install_bts/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/AreaPoolException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/BirthdayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/CompareNameAndBirthDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/EmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/FuncWriteAndRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/GenderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/IdCardException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/NameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/commons/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/data/Customer.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/data/House.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/data/Room.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/data/Villa.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/manager/CustomerManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/manager/HouseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/manager/RoomManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/manager/ServiceManger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/manager/VillaManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/models/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/models/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/models/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/models/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/case_study/models/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/comparable/CompareByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/comparable/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/comparator/CompareById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/comparator/CompareByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/comparator/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/quanlisanpham/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/quanlisanpham/Product2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai12_java_collection_framework/bai_tap/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai12_java_collection_framework/bai_tap/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/CustomerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/manager/CustomerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/C1220G2_NguyenThanhTung_Module2/case_study/models/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/Customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/Villa.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/manager/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/manager/CustomerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/manager/HouseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/manager/HouseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/manager/RoomManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/manager/RoomManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/manager/VillaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/manager/VillaManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Villa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,12 +70,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MainController">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bai_14_thuattoan_sapxep.thuchanh.BubbleSort" />
+    <configuration name="BookingManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.manager.BookingManager" />
       <module name="C1220G2_NguyenThanhTung_Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bai_14_thuattoan_sapxep.thuchanh.*" />
+          <option name="PATTERN" value="case_study.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainController" />
+        <item itemvalue="Application.BookingManager" />
         <item itemvalue="Application.MainDemo" />
         <item itemvalue="Application.CopyLargeFile" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +174,9 @@
       <workItem from="1615992142427" duration="3538000" />
       <workItem from="1616031137883" duration="11414000" />
       <workItem from="1616092959111" duration="2878000" />
+      <workItem from="1616096157355" duration="4240000" />
+      <workItem from="1616114967216" duration="87000" />
+      <workItem from="1616116639222" duration="9470000" />
     </task>
     <servers />
   </component>
@@ -267,10 +184,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1615970641259">
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1616126191074">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615970641259" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1616126191074" />
     <state x="474" y="235" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615965348095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -279,30 +196,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1615968079708" />
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1616095367042">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1616129434734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616095367042" />
-    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1616095367042">
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616129434734" />
+    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1616129434734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616095367042" />
-    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1616095367042">
+    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616129434734" />
+    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1616129434734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616095367042" />
-    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1616095367042">
+    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616129434734" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1616129434734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616095367042" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616129434734" />
     <state x="251" y="0" width="916" height="708" key="SettingsEditor" timestamp="1615777945833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="251" y="0" width="916" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615777945833" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616031140236">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616116649529">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1616031140236" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1616116649529" />
     <state x="470" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1615966848554">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

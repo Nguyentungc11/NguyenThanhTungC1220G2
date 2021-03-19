@@ -5,9 +5,7 @@ import case_study.commons.NameException;
 import case_study.commons.Validation;
 import case_study.models.Villa;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class VillaManager {
     ServiceManger serviceManger = new ServiceManger();
@@ -36,7 +34,7 @@ public class VillaManager {
 
     }
 
-    public void showVilla() {
+    public List<Villa> showVilla() {
         List<String[]> list = funcWriteAndRead.read("Villa.csv");
         List<Villa> villaList = new ArrayList<>();
         for (String[] villaInfo : list) {
@@ -45,8 +43,27 @@ public class VillaManager {
                     villaInfo[6], villaInfo[7], Double.parseDouble(villaInfo[8]), Integer.parseInt(villaInfo[9]));
             villaList.add(villa);
         }
-        for (Villa villa : villaList) {
-            System.out.println(villa.showInfo());
+        for (int i = 0; i < villaList.size(); i++) {
+            System.out.println(i + 1 + ". " + villaList.get(i).showInfo());
+        }
+        return villaList;
+    }
+    public void showVillaNotDup(){
+        List<String[]> list = funcWriteAndRead.read("Villa.csv");
+        List<Villa> villaList = new ArrayList<>();
+        for (String[] villaInfo : list) {
+            Villa villa = new Villa(villaInfo[0], villaInfo[1], Double.parseDouble(villaInfo[2]),
+                    Double.parseDouble(villaInfo[3]), Integer.parseInt(villaInfo[4]), villaInfo[5],
+                    villaInfo[6], villaInfo[7], Double.parseDouble(villaInfo[8]), Integer.parseInt(villaInfo[9]));
+            villaList.add(villa);
+        }
+        Set<Villa> setService = new TreeSet<>();
+        setService.addAll(villaList);
+        System.out.println("________________________");
+        System.out.println("List service not dup ");
+
+        for (Villa villa : setService) {
+            System.out.println(villa.getNameService());
         }
     }
 
